@@ -7,7 +7,7 @@ fn main() {
     println!("GUESS THE NUMBER GAME");
     println!("=====================");
 
-    let secret_number = rand::thread_rng().gen_range(1..=10);
+    let secret_number = rand::thread_rng().gen_range(1..=100);
     println!("Please choose a number betwen 1 and 100:");
 
     loop {
